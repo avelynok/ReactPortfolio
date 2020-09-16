@@ -18,23 +18,23 @@ export default class Contact extends Component {
         <div className="row">
           <div className="eight columns">
             {/* form */}
-            <form action="" method="post" id="contactForm" name="contactForm">
+            <form method="post" id="contactForm" name="contactForm">
             <input type="hidden" name="form-name" value="contactForm" />
-				<fieldset>
+				      <fieldset>
                   <div>
-					<label for="contactName">Name <span class="required">*</span></label>
-					<input type="text" size="35" id="contactName" name="contactName" placeholder="Enter your name"/>
+					          <label for="contactName">Name <span class="required">*</span></label>
+					          <input type="text" size="35" id="contactName" name="contactName" placeholder="Enter your name"/>
                   </div>
                   <div>
-					<label for="contactEmail">Email <span class="required">*</span></label>
-					<input type="text" size="35" id="contactEmail" name="contactEmail" placeholder="Enter your email"/>
+					          <label for="contactEmail">Email <span class="required">*</span></label>
+					           <input type="text" size="35" id="contactEmail" name="contactEmail" placeholder="Enter your email"/>
                   </div>
                   <div>
                      <label for="contactMessage">Message <span class="required">*</span></label>
                      <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" placeholder="How can I help...?"></textarea>
                   </div>
                   <div>
-                    <button class="submit">Submit</button>
+                    <button type="submit" className="submit">Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif"/>
                      </span>
