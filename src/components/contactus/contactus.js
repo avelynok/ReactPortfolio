@@ -18,23 +18,51 @@ export default class Contact extends Component {
         <div className="row">
           <div className="eight columns">
             {/* form */}
-            <form id="contactForm" name="contact" method="POST" data-netlify="true">
-                <div class="form-group">
-                  <label htmlFor="contactName">Name <span className="required">*</span></label>
-                  <input type="text" class="form-control" id="user_name" placeholder="Enter your name" name="name"/>
-                </div>
-                <div class="form-group">
-                  <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                  <input type="email" class="form-control" id="your_email" placeholder="Enter your email" name="email"/>
-                </div>
-                <div class="form-group">
-                  <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                  <textarea cols={50} rows={15}  id="user_message" class="form-control" name="message" />
-                </div>
-                <div>
-                  <button className="submit" type="submit">Submit</button>
-                </div>
-            </form> {/* Form End */}
+            <form name="contact" method="post"   id="contactForm">
+                <input type="hidden" name="form-name" value="contact" />
+                <fieldset>
+                  <div>
+                    <label >
+                      Name <span className="required">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      size={35}
+                      id="contactName"
+                      name="name"
+                    />
+                  </div>
+                  <div>
+                    <label>
+                      Email <span className="required">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      size={35}
+                      id="contactEmail"
+                      name="email"
+                    />
+                  </div>
+                  
+                  <div>
+                    <label >
+                      Message <span className="required">*</span>
+                    </label>
+                    <textarea
+                      cols={50}
+                      rows={15}
+                      id="contactMessage"
+                      name="message"
+                    />
+                  </div>
+                  <div>
+                    <button className="submit">Submit</button>
+                    <span id="image-loader">
+                      <img alt="" src="images/loader.gif" />
+                    </span>
+                  </div>
+                </fieldset>
+              </form>{" "} {/* Form End */}
           
             {/* contact-warning */}
             <div id="message-warning"> Error boy</div>
