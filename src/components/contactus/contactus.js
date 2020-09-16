@@ -22,11 +22,11 @@ export default class Contact extends Component {
               <fieldset>
                 <div>
                   <label htmlFor="contactName">Name <span className="required">*</span></label>
-                  <input type="text" defaultValue size={35} defaultValue={""} id="contactName" name="contactName" placeholder="Enter your name"/>
+                  <input type="text" defaultValue size={35} id="contactName" name="contactName" placeholder="Enter your name"/>
                 </div>
                 <div>
                   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                  <input type="text" defaultValue size={35} defaultValue={""} id="contactEmail" name="contactEmail" placeholder="Enter your email"/>
+                  <input type="text" defaultValue size={35}  id="contactEmail" name="contactEmail" placeholder="Enter your email"/>
                 </div>
                 <div>
                   <label htmlFor="contactMessage">Message <span className="required">*</span></label>
