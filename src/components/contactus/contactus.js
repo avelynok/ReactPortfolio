@@ -34,10 +34,8 @@ export default class Contact extends Component {
                      <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" placeholder="How can I help...?"></textarea>
                   </div>
                   <div>
-                    <button type="submit" className="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif"/>
-                     </span>
+                    <button type="submit" >Submit</button>
+                     
                   </div>
 				</fieldset>
 			</form>{/* Form End */}
