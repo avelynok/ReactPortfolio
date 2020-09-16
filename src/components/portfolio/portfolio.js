@@ -125,8 +125,8 @@ export default class Portfolio extends Component {
                 <span className="categories"><i className="fa fa-tag" />HTML5, CSS, JavaScript</span>
               </div>
               <div className="link-box">
-                <a href="https://github.com/avelynok/maze" target="_blank">Code</a>
-                <a className="popup-modal-dismiss">Close</a>
+                <a href="https://github.com/avelynok/maze" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="#popup-modal-dismiss" className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-01 End */}
             <div id="modal-02" className="popup-modal mfp-hide">
@@ -137,8 +137,8 @@ export default class Portfolio extends Component {
                 <span className="categories"><i className="fa fa-tag" />HTML5, CSS, JavaScript</span>
               </div>
               <div className="link-box">
-                <a href="https://github.com/avelynok/connect-four" target="_blank">Code</a>
-                <a className="popup-modal-dismiss">Close</a>
+                <a href="https://github.com/avelynok/connect-four" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="#popup-modal-dismiss" className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-02 End */}
             <div id="modal-03" className="popup-modal mfp-hide">
@@ -149,8 +149,8 @@ export default class Portfolio extends Component {
                 <span className="categories"><i className="fa fa-tag" />HTML5, CSS, JavaScript</span>
               </div>
               <div className="link-box">
-                <a href="https://github.com/avelynok/tower-of-hanoi" target="_blank">Code</a>
-                <a className="popup-modal-dismiss">Close</a>
+                <a href="https://github.com/avelynok/tower-of-hanoi" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="#popup-modal-dismiss" className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-03 End */}
             <div id="modal-04" className="popup-modal mfp-hide">
@@ -161,8 +161,8 @@ export default class Portfolio extends Component {
                 <span className="categories"><i className="fa fa-tag" />Photography</span>
               </div>
               <div className="link-box">
-                <a href="https://github.com/avelynok/todo-app" target="_blank">Code</a>
-                <a className="popup-modal-dismiss">Close</a>
+                <a href="https://github.com/avelynok/todo-app" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="#popup-modal-dismiss" className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-04 End */}
             <div id="modal-05" className="popup-modal mfp-hide">
@@ -173,8 +173,8 @@ export default class Portfolio extends Component {
                 <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
               </div>
               <div className="link-box">
-                <a href="https://github.com/avelynok/Kwitter" target="_blank">Code</a>
-                <a className="popup-modal-dismiss">Close</a>
+                <a href="https://github.com/avelynok/Kwitter" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="#popup-modal-dismiss" className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-05 End */}
             <div id="modal-06" className="popup-modal mfp-hide">
@@ -185,8 +185,8 @@ export default class Portfolio extends Component {
                 <span className="categories"><i className="fa fa-tag" />Photography</span>
               </div>
               <div className="link-box">
-                <a href="https://github.com/avelynok/InstagramClone" target="_blank">Code</a>
-                <a className="popup-modal-dismiss">Close</a>
+                <a href="https://github.com/avelynok/InstagramClone" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="#popup-modal-dismiss" className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-06 End */}
             <div id="modal-07" className="popup-modal mfp-hide">
@@ -197,9 +197,9 @@ export default class Portfolio extends Component {
                 <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
               </div>
               <div className="link-box">
-                <a href="https://github.com/avelynok/ghostpost_frontend" target="_blank">Frontend</a>
-                <a href="https://github.com/avelynok/ghostpost_backend" target="_blank"> Backend</a>
-                <a className="popup-modal-dismiss">Close</a>
+                <a href="https://github.com/avelynok/ghostpost_frontend" target="_blank" rel="noopener noreferrer">Frontend</a>
+                <a href="https://github.com/avelynok/ghostpost_backend" target="_blank" rel="noopener noreferrer"> Backend</a>
+                <a href="#popup-modal-dismiss" className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-07 End */}
             <div id="modal-08" className="popup-modal mfp-hide">
@@ -210,9 +210,9 @@ export default class Portfolio extends Component {
                 <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
               </div>
               <div className="link-box">
-                <a href="https://github.com/avelynok/drf_shoestore_frontend" target="_blank">Frontend</a>
-                <a href="https://github.com/avelynok/Django-ReST-Framework" target="_blank"> Backend</a>
-                <a className="popup-modal-dismiss">Close</a>
+                <a href="https://github.com/avelynok/drf_shoestore_frontend" target="_blank" rel="noopener noreferrer">Frontend</a>
+                <a href="https://github.com/avelynok/Django-ReST-Framework" target="_blank" rel="noopener noreferrer"> Backend</a>
+                <a href="#popup-modal-dismiss" className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-01 End */}
           </div> {/* row End */}
