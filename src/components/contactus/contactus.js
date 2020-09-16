@@ -18,7 +18,7 @@ export default class Contact extends Component {
         <div className="row">
           <div className="eight columns">
             {/* form */}
-            <form action  id="contactForm" name="contactForm"  method="POST" data-netlify="true">
+            <form id="contactForm" name="contactForm"  method="POST" data-netlify="true">
               <fieldset>
                 <div>
                   <label htmlFor="contactName">Name <span className="required">*</span></label>
