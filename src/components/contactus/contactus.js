@@ -23,15 +23,15 @@ export default class Contact extends Component {
 				<fieldset>
                   <div>
 					<label for="contactName">Name <span class="required">*</span></label>
-					<input type="text" value="" size="35" id="contactName" name="contactName"/>
+					<input type="text" size="35" id="contactName" name="contactName" placeholder="Enter your name"/>
                   </div>
                   <div>
 					<label for="contactEmail">Email <span class="required">*</span></label>
-					<input type="text" value="" size="35" id="contactEmail" name="contactEmail"/>
+					<input type="text" size="35" id="contactEmail" name="contactEmail" placeholder="Enter your email"/>
                   </div>
                   <div>
                      <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" placeholder="How can I help...?"></textarea>
                   </div>
                   <div>
                     <button class="submit">Submit</button>
