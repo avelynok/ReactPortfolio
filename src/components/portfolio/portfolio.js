@@ -158,7 +158,7 @@ export default class Portfolio extends Component {
               <div className="description-box">
                 <h4>Todo App</h4>
                 <p>A React/Redux app that helps you keep track and organize daily tasks.</p>
-                <span className="categories"><i className="fa fa-tag" />Photography</span>
+                <span className="categories"><i className="fa fa-tag" />React, Redux</span>
               </div>
               <div className="link-box">
                 <a href="https://github.com/avelynok/todo-app" target="_blank" rel="noopener noreferrer">Code</a>
@@ -170,7 +170,7 @@ export default class Portfolio extends Component {
               <div className="description-box">
                 <h4>Kwitter</h4>
                 <p>A Twitter clone built with React an Redux.</p>
-                <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
+                <span className="categories"><i className="fa fa-tag" />React, Redux, Semantic UI</span>
               </div>
               <div className="link-box">
                 <a href="https://github.com/avelynok/Kwitter" target="_blank" rel="noopener noreferrer">Code</a>
@@ -181,8 +181,8 @@ export default class Portfolio extends Component {
               <img className="scale-with-grid" src="images/portfolio/modals/instaClone.gif" alt="" />
               <div className="description-box">
                 <h4>InstaClone</h4>
-                <p>An Instagram clone built with python and django.</p>
-                <span className="categories"><i className="fa fa-tag" />Photography</span>
+                <p>An Instagram clone built with Bootstrap, python and django.</p>
+                <span className="categories"><i className="fa fa-tag" />Python, Django, Bootstrap</span>
               </div>
               <div className="link-box">
                 <a href="https://github.com/avelynok/InstagramClone" target="_blank" rel="noopener noreferrer">Code</a>
@@ -193,8 +193,10 @@ export default class Portfolio extends Component {
               <img className="scale-with-grid" src="images/portfolio/modals/ghostpost.png" alt="" />
               <div className="description-box">
                 <h4>Ghostpost</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
+                <p>The GhostPost Machine™ is a website where people can anonymously post Boasts or Roasts of whatever they want. Like most services, there is a character limit: 280 characters. Buttons to filter the content by either boasts or roasts, sorted by time submitted
+                    Users are able to Upvote and downvote each boast and roast, when clicked, these buttons affect the numbers on the relevant post appropriately.
+                    User also have the ability to sort content based on vote score </p>
+                <span className="categories"><i className="fa fa-tag" />Python, Django REST framework, Django server, React, Bootstrap</span>
               </div>
               <div className="link-box">
                 <a href="https://github.com/avelynok/ghostpost_frontend" target="_blank" rel="noopener noreferrer">Frontend</a>
@@ -206,8 +208,8 @@ export default class Portfolio extends Component {
               <img className="scale-with-grid" src="images/portfolio/modals/shoestore.png" alt="" />
               <div className="description-box">
                 <h4>Shoe Store</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
+                <p>Django REST framework and a fresh Django server to create an API as a potential demo for a shoe store</p>
+                <span className="categories"><i className="fa fa-tag" />Django REST framework, Django server, React, Bootstrap</span>
               </div>
               <div className="link-box">
                 <a href="https://github.com/avelynok/drf_shoestore_frontend" target="_blank" rel="noopener noreferrer">Frontend</a>
