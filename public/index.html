@@ -10,7 +10,7 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    
+
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
     <link rel="stylesheet" href="%PUBLIC_URL%/css/default.css">
@@ -21,6 +21,12 @@
     <title>React Portfolio</title>
   </head>
   <body>
+
+    <form name="contactForm" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="contactName" />
+      <input type="email" name="contactEmail" />
+      <textarea name="contactMessage"></textarea>
+    </form>
 
     <div id="root"></div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
