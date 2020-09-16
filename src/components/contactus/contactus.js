@@ -19,27 +19,23 @@ export default class Contact extends Component {
           <div className="eight columns">
             {/* form */}
             <form id="contactForm" name="contact" method="POST" data-netlify="true">
-              <fieldset>
-                <div>
+                <div class="form-group">
                   <label htmlFor="contactName">Name <span className="required">*</span></label>
-                  <input type="text" defaultValue={""} id="contactName" name="contactName" placeholder="Enter your name"/>
+                  <input type="text" class="form-control" id="user_name" placeholder="Enter your name" name="name"/>
                 </div>
-                <div>
+                <div class="form-group">
                   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                  <input type="text"  defaultValue={""} id="contactEmail" name="contactEmail" placeholder="Enter your email"/>
+                  <input type="email" class="form-control" id="your_email" placeholder="Enter your email" name="email"/>
                 </div>
-                <div>
+                <div class="form-group">
                   <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                  <textarea cols={50} rows={15} id="contactMessage" name="contactMessage" defaultValue={""} />
+                  <textarea cols={50} rows={15}  id="user_message" class="form-control" name="message" />
                 </div>
                 <div>
                   <button className="submit" type="submit">Submit</button>
-                  <span id="image-loader">
-                    <img alt="" src="images/loader.gif" />
-                  </span>
                 </div>
-              </fieldset>
             </form> {/* Form End */}
+          
             {/* contact-warning */}
             <div id="message-warning"> Error boy</div>
             {/* contact-success */}
