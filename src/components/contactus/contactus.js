@@ -72,7 +72,7 @@ export default class Contact extends Component {
                 </li>
                 <li>
                   <span>
-                  “Genius is 1% inspiration, 99% perspiration.”
+                  “ Genius is 1% inspiration, 99% perspiration.”
                   </span>
                   <b><h4 className="widget-title">-Thomas Edison</h4></b>
                 </li>
